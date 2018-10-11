@@ -1,0 +1,152 @@
+.main{
+  width: 1500px;
+  height: 900px;
+  background-color: #535767;
+  border: 1px solid blue;
+  overflow:hidden;
+  position: relative;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+body{
+  background-color: white;
+}
+.radius {
+  width: 50em;  /* ширина в два раза меньше высоты, иначе получится полуовал */
+  margin-top: -20em;
+  margin-left: -10em;
+  height: 100em;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  background: #383c48;
+  overflow:hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.karta{
+  border: 1px solid #5c5f6b;
+  border-radius: 30px;
+  background-color: #5c5f6b;
+  height: 700px;
+  width: 1200px;
+position: absolute;
+top:12.5%;
+overflow: hidden;
+left: 12.5%;
+}
+.krug2{
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -100px;
+  height: 1200px;
+  width: 900px;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  background:#555a63;
+  overflow:hidden;
+}
+.kros{
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  top:200px;
+  left:0px;
+  transform: rotate(45deg);
+}
+.knit{
+  position: absolute;
+  top:200px;
+  left: 650px;
+  font-size: 250px;
+  color:#5e626c;
+  font-weight: bold;
+  opacity: 0.9;
+
+}
+.nike{
+  color:#ec9c4e;
+  font-size: 50px;
+  position: absolute;
+  top:250px;
+  left: 880px;
+  font-weight: bold;
+  opacity: 1;
+}
+.flyknit{
+  color:#cfcfcf;
+  font-size: 100px;
+  position: absolute;
+  top:300px;
+  left: 930px;
+  font-weight: bold;
+  opacity: 1;
+}
+.product{
+  color:#cfcfcf;
+  font-size: 20px;
+  position: absolute;
+  top:450px;
+  left: 850px;
+  font-weight: bold;
+  opacity: 1;
+}
+.text{
+  color:#cfcfcf;
+  width: 500px;
+  font-size: 20px;
+  position: absolute;
+  top:500px;
+  left: 890px;
+  opacity: 0.5;
+}
+.dol{
+  color:#cfcfcf;
+  width: 500px;
+  font-size: 80px;
+  position: absolute;
+  top:680px;
+  left: 840px;
+  opacity: 0.1;
+  font-weight: bold;
+}
+.dol1{
+  color:#eaebec;
+  width: 500px;
+  font-size: 50px;
+  position: absolute;
+  top:710px;
+  left: 920px;
+  font-weight: bold;
+}
+.btn{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color:white;
+  border-radius: 10px;
+  background-color: #ea833e;
+  position: absolute;
+  top:720px;
+  left: 1100px;
+  font-weight: bold;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+ul{
+  color:white;
+  font-size: 10px;
+  position: absolute;
+  top:600px;
+  left: 850px;
+  font-weight: bold;
+}
+li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.btn2{
+  padding: 10px;
+  background-color: #777b87;
+  border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.btn2:hover{
+    background-color: #e78642;
+}
